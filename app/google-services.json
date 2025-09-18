@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "132179251924",
+    "project_id": "redrescue-8735e",
+    "storage_bucket": "redrescue-8735e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132179251924:android:f88a7ceb568034d3496141",
+        "android_client_info": {
+          "package_name": "com.app.redrescue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132179251924-739ku9br5fbgffpv11q3qr6t2bi45u25.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.redrescue",
+            "certificate_hash": "5679099b54f871becde42458bcdba4e200bee12b"
+          }
+        },
+        {
+          "client_id": "132179251924-g63bococed04ko1je9lqi3f9lubsgghi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD61MxYMjbL8oo61Dg9rAK4ExWVS5XI6GY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132179251924-g63bococed04ko1je9lqi3f9lubsgghi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

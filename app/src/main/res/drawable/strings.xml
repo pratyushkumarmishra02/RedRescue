@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">FolioNet</string>
+    <string name="welcome_to_folionet">Welcome to FolioNet</string>
+    <string name="folionet_is_your_personal_creative_space_build_your_portfolio_explore_projects_follow_like_minded_professionals_and_collaborate_through_real_time_chat_whether_you_re_a_developer_designer_student_or_freelancer_your_work_deserves_to_be_seen">FolioNet is your personal creative space — build your portfolio, explore projects, follow like-minded professionals, and collaborate through real-time chat. Whether you\'re a developer, designer, student, or freelancer — your work deserves to be seen.</string>
+    <string name="get_started">Get Started</string>
+    <string name="hi_nplease_login">Hi\nPlease Login</string>
+    <string name="email">Email</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="don_t_remember_password">Don\'t Remember Password?</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="or_login_with">Or Login With</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="login">Login</string>
+    <string name="or">OR</string>
+    <string name="registration">REGISTRATION</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="hi_nsignup_here">Hi\nSignUp Here</string>
+    <string name="name">Name</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="gender">Gender</string>
+    <string name="enter_your_10_digit_phone_number">Enter your 10-digit phone number</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="select_your_date_of_birth">Select your date of birth</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="confirm_your_password">Confirm your password</string>
+    <string name="home">HOME</string>
+    <string name="search_here">Search here...</string>
+    <string name="top_projects">Top projects</string>
+    <string name="see_all">See all</string>
+    <string name="top_posts">Top posts</string>
+    <string name="notification">NOTIFICATIONS</string>
+    <string name="create">CREATE</string>
+    <string name="reels">REELS</string>
+    <string name="profile">PROFILE</string>
+    <string name="profile1">Profile</string>
+    <string name="favourites">FAVOURITES</string>
+
+    <string-array name="post_filter_options">
+        <item>Filter</item>
+        <item>All</item>
+        <item>Photos</item>
+        <item>Videos</item>
+    </string-array>
+
+    <string name="default_web_client_id">878775071630-39e0d3p1jeugffh35ffhs9cvebjsl7cp.apps.googleusercontent.com</string>
+
+
+    <string name="facebook_app_id">1043647184375755</string>
+    <!--    <string name="fb_login_protocol_scheme">fb1234</string>-->
+    <string name="facebook_client_token">7e6ec336a0b220d7230abd2676f6f8a1</string>
+    <string name="view_project">View Project</string>
+    <string name="loading">Loading...</string>
+    <string name="welcome">Welcome!!</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="your_activities">Your Activities</string>
+    <string name="notifications">Notifications</string>
+    <string name="time_management">Time Management</string>
+    <string name="account_privacy">Account Privacy</string>
+    <string name="blocked_accounts">Blocked Accounts</string>
+    <string name="help_support"><![CDATA[Help & Support]]></string>
+    <string name="faqs">FAQs</string>
+    <string name="general_faqs">General FAQs</string>
+    <string name="what_is_this_platform">What is this platform?</string>
+    <string name="how_do_i_sign_up">How do I sign up?</string>
+    <string name="what_if_i_forget_my_password">What if I forget my password?</string>
+    <string name="how_do_i_change_my_account_details">How do I change my account details?</string>
+    <string name="how_can_i_delete_my_account">How can I delete my account?</string>
+    <string name="posting_projects"><![CDATA[Posting & Projects]]></string>
+    <string name="how_can_i_make_my_posts">How can I make my posts?</string>
+    <string name="how_do_i_upload_my_projects">How do I upload my projects?</string>
+    <string name="privacy_security"><![CDATA[Privacy & Security]]></string>
+    <string name="how_is_my_data_protected">How is my data protected?</string>
+    <string name="what_is_your_privacy_policy">What is your privacy policy?</string>
+    <string name="how_do_i_report_content">How do I report content?</string>
+    <string name="no_results_found">No results found</string>
+    <string name="userName">User Name</string>
+    <string name="user123">\@user123</string>
+    <string name="generate_username">Generate username</string>
+    <string name="delete_account">DELETE ACCOUNT</string>
+    <string name="edit_profile">EDIT PROFILE</string>
+    <string name="edit_profile_">Edit Profile</string>
+    <string name="save">SAVE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="account_information">Account Information</string>
+    <string name="privacy_support"><![CDATA[Privacy & Support]]></string>
+    <string name="choose_image">Choose Image</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="upload_image_">Upload Image</string>
+    <string name="user_search_results">USERS</string>
+    <string name="project_search_results">PROJECTS</string>
+    <string name="posts">Posts</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="create_">Create</string>
+    <string name="create_posts">Posts</string>
+    <string name="create_reel">Reel</string>
+    <string name="create_project">Project</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_internet_connection">No Internet Connection, please check your internet connection and try again.</string>
+    <string name="retry">Retry</string>
+    <string name="network_connection_error">Network Connection Error!!</string>
+    <string name="sign_in">Sign in</string>
+    <string name="add_new_account">Add new Account</string>
+    <string name="logout">Logout</string>
+    <string name="new_post">New Post</string>
+    <string name="next">Next</string>
+    <string name="post">Post</string>
+    <string name="write_a_caption">Write a caption...</string>
+    <string name="select_music">Select music</string>
+    <string name="track_title">Track Title</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="add_emoji">Add Emoji</string>
+    <string name="text">Text</string>
+    <string name="audio">Audio</string>
+    <string name="_0">0</string>
+    <string name="share">Share</string>
+    <string name="edit_cover">Edit cover</string>
+    <string name="please_select_a_video">Please select a video</string>
+    <string name="profile_">Profile</string>
+    <string name="setting">Setting</string>
+    <string name="about">About</string>
+    <string name="_logout">Logout</string>
+
+</resources>

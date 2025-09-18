@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.DashboardFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mainColor">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Top bar -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingBottom="8dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imgProfile"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/no_profile_pic" />
+
+                <TextView
+                    android:id="@+id/appTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/redRescue"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="#221a1a" />
+
+                <ImageView
+                    android:id="@+id/settingsIcon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_setting" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/your_safety_our_priority"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#221a1a"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="14dp" />
+
+                <!-- SOS Alert Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnSos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="28dp"
+                    android:text="@string/sos_alert"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    app:icon="@drawable/ic_alarm"
+                    app:iconSize="22dp"
+                    app:iconTint="@android:color/white"
+                    app:iconGravity="textStart"
+                    app:iconPadding="8dp"
+                    android:background="@drawable/red_bg"
+                    app:backgroundTint="@null" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:id="@+id/crimeHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/report_a_crime"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    android:textColor="#221a1a"
+                    android:layout_marginBottom="16dp" />
+
+                <LinearLayout
+                    android:id="@+id/multimediaEvidence"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="17dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:layout_marginEnd="10dp"
+                        android:src="@drawable/ic_multimedia"
+                        android:background="#F2E8E8"
+                        android:padding="8dp"
+                        android:scaleType="centerInside" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/multimedia_evidence"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:textColor="#221a1a" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/upload_photos_videos_or_audio_evidence"
+                            android:textSize="13sp"
+                            android:textColor="#CC1400" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/locationSharing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="17dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:layout_marginEnd="10dp"
+                        android:src="@drawable/ic_location"
+                        android:background="#F2E8E8"
+                        android:padding="8dp"
+                        android:scaleType="centerInside" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/location_sharing"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:textColor="#221a1a" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/share_your_real_time_location_with_authorities"
+                            android:textSize="13sp"
+                            android:textColor="#e74c3c" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/onlyDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="17dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:layout_marginEnd="10dp"
+                        android:src="@drawable/ic_crime"
+                        android:background="#F2E8E8"
+                        android:padding="8dp"
+                        android:scaleType="centerInside" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/crime_description"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:textColor="#221a1a" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/describe_the_crime_in_detail"
+                            android:textSize="13sp"
+                            android:textColor="#e74c3c" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/anonymous"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:layout_marginEnd="10dp"
+                        android:src="@drawable/ic_anonymous"
+                        android:background="#F2E8E8"
+                        android:padding="8dp"
+                        android:scaleType="centerInside" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/anonymous_reporting"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:textColor="#221a1a" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/report_anonymously_without_revealing_your_identity"
+                            android:textSize="13sp"
+                            android:textColor="#e74c3c" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
